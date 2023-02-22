@@ -1,5 +1,5 @@
 name: pizza_bloc_app
-description: A new Flutter project.
+description: A Pizza Flutter project using bloc.
 publish_to: 'none'
 version: 0.1.0
 
@@ -7,8 +7,10 @@ environment:
   sdk: '>=2.19.2 <3.0.0'
 
 dependencies:
+  equatable: ^2.0.5
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.2
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - images/
