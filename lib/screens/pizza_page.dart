@@ -74,6 +74,7 @@ class PizzaPage extends StatelessWidget {
             onPressed: () => context.read<PizzaBloc>().add(RemovePizza(Pizza.pizzas[0])),
             child: const Icon(Icons.remove),
           ),
+          const SizedBox(height: 10),
           FloatingActionButton(
             backgroundColor: Colors.orange[500],
             onPressed: () => context.read<PizzaBloc>().add(AddPizza(Pizza.pizzas[1])),
