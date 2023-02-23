@@ -3,6 +3,7 @@ import 'package:equatable/equatable.dart';
 import 'package:pizza_bloc_app/models/pizza_model.dart';
 
 part 'pizza_event.dart';
+
 part 'pizza_state.dart';
 
 class PizzaBloc extends Bloc<PizzaEvent, PizzaState> {
